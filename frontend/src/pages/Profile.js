@@ -21,7 +21,7 @@ function Profile() {
 
   useEffect(() => {
     userfetcher();
-  });
+  },[]);
   return (
     <div>
       <Header />

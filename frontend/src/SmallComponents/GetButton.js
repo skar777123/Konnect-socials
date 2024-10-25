@@ -30,7 +30,7 @@ const GetButton = (props) => {
   }
   useEffect(() => {
     userfetcherDetails();
-  });
+  },[]);
   return (
     <div>
       {loading && (
