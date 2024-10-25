@@ -5,7 +5,7 @@
       ".localhost"
     ]
   },
-  "proxy": "http://localhost:3003/",
+  "proxy": "https://sma-backend-z8o1.onrender.com/",
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
