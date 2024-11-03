@@ -23,7 +23,8 @@ const GetComm = (props) => {
   }
   useEffect(() => {
     getComments();
-  },[]);
+  }
+           );
 
   return (
     <div>
