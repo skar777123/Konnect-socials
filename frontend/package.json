@@ -1,10 +1,8 @@
 {
   "options": {
     "allowedHosts": [
-      "localhost",
-      ".localhost",
       "https://sma-backend-z8o1.onrender.com/",
-      "sma-backend-z8o1.onrender"
+      "sma-backend-z8o1.onrender.com"
     ]
   },
   "proxy": "https://sma-backend-z8o1.onrender.com",
@@ -31,6 +29,7 @@
     "web-vitals": "^2.1.4"
   },
   "devServer": {
+    "compress": true,
     "disableHostCheck": true
   },
   "scripts": {
