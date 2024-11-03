@@ -42,7 +42,7 @@ function AddFriends() {
   useEffect(() => {
     userfetcher();
     fetcher();
-  },[]);
+  });
 
   return (
     <div>
